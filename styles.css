@@ -1228,6 +1228,35 @@ html {
     font-weight: bold;
 }
 
+/* Property Management Pains */
+.pm-pains {
+    padding: var(--spacing-lg) var(--spacing-sm);
+    background-color: var(--bg-light);
+}
+
+.pm-pains h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.pm-pains-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-sm);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pm-pain-item {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--bg-white);
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
 /* Proof and Pricing */
 .proof-pricing {
     padding: var(--spacing-lg) var(--spacing-sm);
